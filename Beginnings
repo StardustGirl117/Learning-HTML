@@ -38,4 +38,22 @@
 						<li>3</li>
 					</ol>
 	</div>
+	<div id="Supplementary Items">
+		<h3>Images</h3>
+			<p>Many images will use the search function to search for an image. with has the command, the attribute, and the source.<br><br> Command = "img"<br>attribute = "src" (AKA Search)<br>Source = [In most instances this will be the URL of the image.]</p>
+			<p>For example, like this:<br><br>
+				<img src="https://i.imgur.com/GVJ06OK.jpg" alt="An edited photo of Rami Malek, across a vaporwave background featuring grids, a galaxy, and chrome letters reading 'hackerman' in all caps."/>
+				<i>Hope you guys like my favorite actor Rami Malek</i><br><br>
+				If you'd like to know what that command looked like, let me type it out for you with extra spaces inserted:
+				[< img src = "https://i.imgur.com/GVJ06OK.jpg" / >]
+			</p>
+			<h4>Alternative Text For Images</h4>
+				<p>Additionally, since the web has become more useful and inclusive for individuals with disabilites, we should learn how to use things such as "Alternative Text."<br><br>Here are some other functions that an "alt" attribute can be used for.
+					<ul>
+						<li>A description of the image so that visually impaired users can have a text to speach option for the image.</li>
+						<li>If an image fails to load, the user can mouse over the area where the image was intended to be, and can read a brief description of the image.</li>
+						<li>Improving Search Engine Optimization (SEO) because search engines cannot "see" images, so the text description can improve the ranking of your site in the search results.</li>
+					</ul>
+				</p>
+	</div>
 </body>
