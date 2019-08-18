@@ -1,0 +1,18 @@
+<body>
+  <h1>Testing Heading 1</h1>
+  <div>
+    <p>Testing paragraph 1</p>
+    <p2>Using paragraphs helps adjust text in different sections, but using the "div" function allows you to divide your page into sections and make it easier to group elements in your HTML together.</p2>
+  </div>
+  <div id="attributes">
+    <h1>Using Attributes</h1>
+      <p>A commonly used Attribute is "id"</p>
+      <p2>Using attributes requires the <i>name</i> of the attribute, and the <i>value</i> of the attribute. You can use "id" to specify different contact (such as s div), and this is really helpful when you use an element more than once.</p2>
+			<p3>If you will inspect the Div for this paragraph, you will notice the ID is equal to "attributes." That means that this entire division is referred to as Attributes, and I can use that ID to reference this element. When IDs are added to a DIV, then we place it in the opening tag.</p3>
+  </div>
+	<div id="text">
+		<p>You have the normal paragraph format of using "p" and then you have <span>SPANS</span></p>
+		<p2>Spans are better for when you want to target a specific piece of inline text, AKA something that is on the same line as other text. If you want to divide your content into blocks, then it is better to use a DIV.</p2>
+		<p3>A good example of why you may use a "span" is so that you can style one part of a paragraph different from another when implementing other languages such as CSS.</p3>
+	</div>
+</body>
