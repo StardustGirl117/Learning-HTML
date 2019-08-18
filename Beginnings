@@ -1,18 +1,41 @@
 <body>
-  <h1>Testing Heading 1</h1>
-  <div>
-    <p>Testing paragraph 1</p>
-    <p2>Using paragraphs helps adjust text in different sections, but using the "div" function allows you to divide your page into sections and make it easier to group elements in your HTML together.</p2>
-  </div>
-  <div id="attributes">
-    <h1>Using Attributes</h1>
-      <p>A commonly used Attribute is "id"</p>
-      <p2>Using attributes requires the <i>name</i> of the attribute, and the <i>value</i> of the attribute. You can use "id" to specify different contact (such as s div), and this is really helpful when you use an element more than once.</p2>
-			<p3>If you will inspect the Div for this paragraph, you will notice the ID is equal to "attributes." That means that this entire division is referred to as Attributes, and I can use that ID to reference this element. When IDs are added to a DIV, then we place it in the opening tag.</p3>
-  </div>
-	<div id="text">
-		<p>You have the normal paragraph format of using "p" and then you have <span>SPANS</span></p>
-		<p2>Spans are better for when you want to target a specific piece of inline text, AKA something that is on the same line as other text. If you want to divide your content into blocks, then it is better to use a DIV.</p2>
-		<p3>A good example of why you may use a "span" is so that you can style one part of a paragraph different from another when implementing other languages such as CSS.</p3>
+	<h1>Testing Heading 1</h1>
+	<div>
+		<p>Testing paragraph 1</p>
+		<p2>Using paragraphs helps adjust text in different sections, but using the "div" function allows you to divide your page into sections and make it easier to group elements in your HTML together.</p2>
+	</div>
+	<div id="attributes">
+		<h1>Attributes and Grouping Your Code</h1>
+			<h3>Using Div IDs, also known as attributes</h3>
+				<p>A commonly used Attribute is "id"</p>
+				<p2>Using attributes requires the <i>name</i> of the attribute, and the <i>value</i> of the attribute. You can use "id" to specify different contact (such as s div), and this is really helpful when you use an element more than once.</p2>
+				<p3>If you will inspect the Div for this paragraph, you will notice the ID is equal to "attributes." That means that this entire division is referred to as Attributes, and I can use that ID to reference this element. When IDs are added to a DIV, then we place it in the opening tag.</p3>
+		<h3>Using Spans, The Inline "Div"</h3>
+			<p>You have the normal paragraph format of using "p" and then you have <span>SPANS</span></p>
+			<p2>Spans are better for when you want to target a specific piece of inline text, AKA something that is on the same line as other text. If you want to divide your content into blocks, then it is better to use a DIV.</p2>
+			<p3>A good example of why you may use a "span" is so that you can style one part of a paragraph different from another when implementing other languages such as CSS.</p3>
+	</div>
+	<div id="formatting">
+		<h1>You can also use formatting to assist with your text!</h1>
+		<h3>Line Breaks</h3>
+			<p>You can use line breaks with the "br" command, for axample <br><br> this is a line break (technically two, if you want the space in between lines), and you don't need a closing tag for it. <br><br> break <br> as many <br> times <br> as you <br> want.</p>
+		<h3>Using Text Formats</h3>
+			<p2>You should also learn to alter text with commands such as "strong" or "em" which are the equivalent of "bold" and "italicize", respectively. You can "em" text to <em>emphasize</em> text, or you can make text <strong>strong</strong> to embolden it.</p2>
+			<p3>Alternatively, a lot of programming languages recognize "i" for "<i>italicize</i>" and "b" for "<b>bold</b>. You should also consider "u" for <u>underlining</u>.</p3>
+		<h3>Lists</h3>
+			<h4>Unordered Lists</h4>
+				<p>Here is a little bit of information on how to use unordered lists! Unordered lists use "ul" (literally just an abbreviation of it), and then once you start that tag, each line item is "li". This will often make bullet points.</p>
+					<ul>
+						<li>Line Item 1</li>
+						<li>Item 2</li>
+						<li>3</li>
+					</ul>
+			<h4>Ordered Lists</h4>
+				<p>Additionally, you can use ordered lists, which use the "ol" command (yet another abbreviation), and will use the same line item "li" command as unordered lists.</p>
+					<ol>
+						<li>Line Item 1</li>
+						<li>Item 2</li>
+						<li>3</li>
+					</ol>
 	</div>
 </body>
