@@ -57,6 +57,8 @@
 					The command for using an alternative text on an image [< img src"Image_URL_Here" alt="Your Description here"/ >]
 				</p>
 			<h3>Videos</h3>
-				<p>Videos also use the same search funtion as photos, but with a little extra depth. You have the "video" command, with the "src" search attribute, and then your video URL as the source, but then you also add the Width and Heigt attributes, and add their values in pixels.</p>
+				<p>Videos also use the same search funtion as photos, but with a little extra depth. You have the "video" command, with the "src" search attribute, and then your video URL as the source, but then you also add the Width and Heigt attributes, and add their values in pixels. However, the difference is that "video" is not a self closing tag like "img." We will need to close the tag with a backslash, and then we'll be all set.</p>
+				<p2>For example, your command would look someone like this <br><br>[Video src="URL_HERE"][/video]<br><br>If you would like to include controls on the video, or define it's width and height, then it will look something like this:<br><br>[Video src="URL_HERE" width="number" height="number" controls][/video]</p2><br><br>
+				<p3>Lastly, you can display a message if the video is not displayed/ supported. Here is how that will look:<br><br></p3>
 	</div>
 </body>
