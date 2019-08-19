@@ -42,7 +42,7 @@
 		<h3>Images</h3>
 			<p>Many images will use the search function to search for an image. with has the command, the attribute, and the source.<br><br> Command = "img"<br>attribute = "src" (AKA Search)<br>Source = [In most instances this will be the URL of the image.]</p>
 			<p>For example, like this:<br><br>
-				<img src="https://i.imgur.com/GVJ06OK.jpg" alt="An edited photo of Rami Malek, across a vaporwave background featuring grids, a galaxy, and chrome letters reading 'hackerman' in all caps."/>
+				<img src="https://i.imgur.com/GVJ06OK.jpg" alt="An edited photo of Rami Malek, across a vaporwave background featuring grids, a galaxy, and chrome letters reading 'hackerman' in all caps."/><br>
 				<i>Hope you guys like my favorite actor Rami Malek</i><br><br>
 				If you'd like to know what that command looked like, let me type it out for you with extra spaces inserted:
 				[< img src = "https://i.imgur.com/GVJ06OK.jpg" / >]
@@ -54,6 +54,9 @@
 						<li>If an image fails to load, the user can mouse over the area where the image was intended to be, and can read a brief description of the image.</li>
 						<li>Improving Search Engine Optimization (SEO) because search engines cannot "see" images, so the text description can improve the ranking of your site in the search results.</li>
 					</ul>
+					The command for using an alternative text on an image [< img src"Image_URL_Here" alt="Your Description here"/ >]
 				</p>
+			<h3>Videos</h3>
+				<p>Videos also use the same search funtion as photos, but with a little extra depth. You have the "video" command, with the "src" search attribute, and then your video URL as the source, but then you also add the Width and Heigt attributes, and add their values in pixels.</p>
 	</div>
 </body>
