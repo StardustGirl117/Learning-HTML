@@ -59,6 +59,7 @@
 			<h3>Videos</h3>
 				<p>Videos also use the same search funtion as photos, but with a little extra depth. You have the "video" command, with the "src" search attribute, and then your video URL as the source, but then you also add the Width and Heigt attributes, and add their values in pixels. However, the difference is that "video" is not a self closing tag like "img." We will need to close the tag with a backslash, and then we'll be all set.</p>
 				<p2>For example, your command would look someone like this <br><br>[Video src="URL_HERE"][/video]<br><br>If you would like to include controls on the video, or define it's width and height, then it will look something like this:<br><br>[Video src="URL_HERE" width="number" height="number" controls][/video]</p2><br><br>
-				<p3>Lastly, you can display a message if the video is not displayed/ supported. Here is how that will look:<br><br></p3>
+				<p3>Lastly, you can display a message if the video is not displayed or supported. Here is how that will look:<br><br>[Video src="URL_HERE" width="number" height="number" controls] Video not supported text here[/video]<br><br>And here is that in action:<br><br><Video src="https://www.youtube.com/watch?v=KpUWQVx1PnU" width="640" height="480" controls> Your browser is a binch and doesn't support memes.</video>
+				</p3>
 	</div>
 </body>
