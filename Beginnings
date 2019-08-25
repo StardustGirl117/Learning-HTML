@@ -61,5 +61,15 @@
 				<p2>For example, your command would look someone like this <br><br>[Video src="URL_HERE"][/video]<br><br>If you would like to include controls on the video, or define it's width and height, then it will look something like this:<br><br>[Video src="URL_HERE" width="number" height="number" controls][/video]</p2><br><br>
 				<p3>Lastly, you can display a message if the video is not displayed or supported. Here is how that will look:<br><br>[Video src="URL_HERE" width="number" height="number" controls] Video not supported text here[/video]<br><br>And here is that in action:<br><br><Video src="https://www.youtube.com/watch?v=KpUWQVx1PnU" width="640" height="480" controls> Your browser is a binch and doesn't support memes.</video>
 				</p3>
+			<h3>External Links</h3>
+				<p>Ahh, a good, old-fashioned link. Super easy to add, and super easy for users to use.Here is a bit more info on how they work. Links use the "a" command, but unlike videos and images, they don't use "src." Instead, they use "href" or "hyperlink reference," as I like to call it. Here is how an example of the code for a hyperlink works<br><br> [a href="URL_HERE"]Name of hyperlink here[/a]. <br><br>Seeing this in action will look a bit more like so:<br><br> <a> href="https://theuselessweb.com/">The Useless Web</a>
+					<br><br> Please enjoy this hyperlink, as it goes to one of my favorite websites from high school where I would waste time in class.</p>
+					<h4>Adjusting Your Links</h4>
+						<p>If you want the link to get the user to the correct page, then fear no more! You can add a link attribute called "target" to open the link in a new browser window, this way your user doesn't lose their place on your page! Here is how that command will look:<br><br>
+						[a href="URL_HERE" target="_blank"]Hyperlink Title & Display Text[/a]<br><br>If you would really like to see how that link works, look at this:<br><br>
+						<a href="https://theuselessweb.com/" target=_blank">The Useless Web (Again)</a><br><br>Some other values that "target" can have are "_self, _blank, _parent, or _top."
+						</p>
+			<h3>Internal Links</h3>
+				<p>Ever heard of a relative path? If not, then now you have! Relative paths are used to link internally on an HTML file from something called the "root directory." The <i>root directory</i> is a main folder where all the files for your project / code are stored. As CodeCademy mentions, as the size of a project grows, you may use additional folders within the main project folder to organize your code.<p>
 	</div>
 </body>
